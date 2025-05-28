@@ -1,0 +1,49 @@
+{
+    "display": {
+        "title": "Golden Heads           ",
+        "description": [
+            "",
+            {
+                "text": "This data pack causes players to drop their heads when killed by another player. These heads can be crafted into ",
+                "color": "#e25903"
+            },
+            {
+                "text": "Golden Heads ",
+                "color": "#d9b35c"
+            },
+            {
+                "text": "by surrounding them with four ",
+                "color": "#e25903"
+            },
+            {
+                "text": "Gold Ingots. ",
+                "color": "#d9b35c"
+            },
+            {
+                "text": "When consumed, they grant players effects.",
+                "color": "#e25903"
+            }
+        ],
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "properties": [
+                        {
+                            "name": "textures",
+                            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWEyNjEzYjVmZDQ5NTAyZDlhYjgwMThhMmNiMDgwODEzN2UwYzk3NzAxNjFjODMwOWRlNmRkODgyYTQ1NTI0MSJ9fX0="
+                        }
+                    ]
+                }
+            }
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "uhc:uhc_control_expansions",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
