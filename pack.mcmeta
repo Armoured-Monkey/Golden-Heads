@@ -4,8 +4,10 @@
 		"description": "Golden Heads: UHC Control Expansion by ArmouredMonkey",
 		"supported_formats": {
 			"min_inclusive":57, 
-			"max_inclusive": 81
-		}
+			"max_inclusive": 999
+		},
+		"min_format": 57,
+		"max_format": 999
 	},
 	"overlays": {
 		"entries": [
@@ -14,6 +16,8 @@
 					"min_inclusive":62, 
 					"max_inclusive": 999
 				},
+				"min_format": 62,
+				"max_format": 999,
 				"directory": "overlay_62"
 			}
 		]
