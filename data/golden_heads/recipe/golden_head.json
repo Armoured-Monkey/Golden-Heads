@@ -71,7 +71,11 @@
                 "saturation": 12,
                 "can_always_eat": true
             },
-            "minecraft:item_name": "{\"text\":\"Golden Head\",\"color\":\"gold\", \"bold\":true}"
+            "minecraft:item_name": {
+                "text": "Golden Head",
+                "color": "gold",
+                "bold": true
+            }
         },
         "count": 1
     }
